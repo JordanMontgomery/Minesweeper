@@ -17,6 +17,5 @@ This project is made to be compiled in Netbeans and the directory structure is s
 The images from this project are based on images provided with the open-source Minesweeper clone "Minez" by Andrew Lim. No code or techniques are borrowed, but the images are very similar to the stock Windows Minesweeper(pre-Vista) images.
 
 Bugs/Limitations: 
-Width, length and number of mines must be set at beginning of run. It is not changeable without closing a re-opening the program.
 Buttons do not "depress" when clicked. The outcome is the same on left click as MS Minesweeper, but the initial click animation is different.
 Occasionally a button will not work correctly. This happens very seldom, something like 1 in 20 games or so and I believe this to be a timing issue. The button is the correct size but never shows the icon correctly when the bug occurs.
