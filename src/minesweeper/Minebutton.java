@@ -17,25 +17,25 @@ public class Minebutton extends JButton{
     private int x; 
     private int y;
     private boolean visited = false;
-    private ImageIcon mine = new ImageIcon("mine.png"); // possible icons
-    private ImageIcon flag = new ImageIcon("flagged.png");
-    private ImageIcon one = new ImageIcon("one.png");
-    private ImageIcon two = new ImageIcon("two.png");
-    private ImageIcon three = new ImageIcon("three.png");
-    private ImageIcon four = new ImageIcon("four.png");
-    private ImageIcon five = new ImageIcon("five.png");
-    private ImageIcon six = new ImageIcon("six.png");
-    private ImageIcon seven = new ImageIcon("seven.png");
-    private ImageIcon eight = new ImageIcon("eight.png");
-    private ImageIcon blank = new ImageIcon("blank.png");
-    private ImageIcon coveredIcon = new ImageIcon("covered.png");
+    private final static ImageIcon mine = new ImageIcon(Minebutton.class.getResource("/images/mine.png")); // possible icons
+    private final static ImageIcon flag = new ImageIcon(Minebutton.class.getResource("/images/flagged.png"));
+    private final static ImageIcon one = new ImageIcon(Minebutton.class.getResource("/images/one.png"));
+    private final static ImageIcon two = new ImageIcon(Minebutton.class.getResource("/images/two.png"));
+    private final static ImageIcon three = new ImageIcon(Minebutton.class.getResource("/images/three.png"));
+    private final static ImageIcon four = new ImageIcon(Minebutton.class.getResource("/images/four.png"));
+    private final static ImageIcon five = new ImageIcon(Minebutton.class.getResource("/images/five.png"));
+    private final static ImageIcon six = new ImageIcon(Minebutton.class.getResource("/images/six.png"));
+    private final static ImageIcon seven = new ImageIcon(Minebutton.class.getResource("/images/seven.png"));
+    private final static ImageIcon eight = new ImageIcon(Minebutton.class.getResource("/images/eight.png"));
+    private final static ImageIcon blank = new ImageIcon(Minebutton.class.getResource("/images/blank.png"));
+    private final static ImageIcon coveredIcon = new ImageIcon(Minebutton.class.getResource("/images/covered.png"));
+    private final static ImageIcon greymine = new ImageIcon(Minebutton.class.getResource("/images/greymine.png"));
     
 
     @Override
     protected int checkHorizontalKey(int i, String string) {
         return super.checkHorizontalKey(i, string);
     }
-    private ImageIcon greymine = new ImageIcon("greymine.png");
     private boolean flagged = false; //true if flag is on button
     
     
